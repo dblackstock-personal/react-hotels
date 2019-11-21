@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Hotel from './components/Hotel.js';
+import hotelWarm from './images/hotelWarm.jpg';
+import hotelBoring from './images/hotelBoring.jpg';
+import personTerry from './images/terry.jpg';
+import personOskar from './images/oskar.jpg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="wrapper">
+          <Hotel
+          image={hotelWarm}
+          rating="★★★★★"
+          comment="Words don't express how much I liked this hotel, but in the next 500 words I aim to explain the extent of my appreciation."
+          user="Terry from London"
+          userImage={personTerry}
+          />
+          <Hotel
+            image={hotelBoring}
+            rating="★★★"
+            comment="It was alright, not worth the money really"
+            user="Oskar from Llandudno"
+            userImage={personOskar}
+          />
+      </div>
+    );
+  }
 }
 
 export default App;
