@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-hotels/static/css/main.c4c2a09c.chunk.css",
+    "main.js": "/react-hotels/static/js/main.125321b5.chunk.js",
+    "main.js.map": "/react-hotels/static/js/main.125321b5.chunk.js.map",
+    "runtime-main.js": "/react-hotels/static/js/runtime-main.8f2aa0d4.js",
+    "runtime-main.js.map": "/react-hotels/static/js/runtime-main.8f2aa0d4.js.map",
+    "static/js/2.1c64fb2d.chunk.js": "/react-hotels/static/js/2.1c64fb2d.chunk.js",
+    "static/js/2.1c64fb2d.chunk.js.map": "/react-hotels/static/js/2.1c64fb2d.chunk.js.map",
+    "index.html": "/react-hotels/index.html",
+    "precache-manifest.9df6bc3caf0adf70a046e41d39cfb0eb.js": "/react-hotels/precache-manifest.9df6bc3caf0adf70a046e41d39cfb0eb.js",
+    "service-worker.js": "/react-hotels/service-worker.js",
+    "static/css/main.c4c2a09c.chunk.css.map": "/react-hotels/static/css/main.c4c2a09c.chunk.css.map",
+    "static/media/hotelBoring.jpg": "/react-hotels/static/media/hotelBoring.365ea9ee.jpg",
+    "static/media/hotelWarm.jpg": "/react-hotels/static/media/hotelWarm.ab3d15d9.jpg",
+    "static/media/oskar.jpg": "/react-hotels/static/media/oskar.7213f862.jpg",
+    "static/media/terry.jpg": "/react-hotels/static/media/terry.9f389363.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f2aa0d4.js",
+    "static/js/2.1c64fb2d.chunk.js",
+    "static/css/main.c4c2a09c.chunk.css",
+    "static/js/main.125321b5.chunk.js"
+  ]
+}
